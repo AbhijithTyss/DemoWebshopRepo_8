@@ -21,5 +21,6 @@ public class TC_DWS_005_Test extends BaseClass{
 		String expectedTitle = eLib.getStringDataFromExcel("Books", 1, 0);
 		Assert.assertEquals(driver.getTitle(), expectedTitle);
 		test.log(Status.PASS, "Books page is displayed");
+		test.log(Status.PASS, "Books page is displayed");
 	}
 }
